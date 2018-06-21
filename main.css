@@ -1,0 +1,29 @@
+* {box-sizing: border-box;}
+body {
+    /* width: 100%;
+    margin: 0 auto; */
+}
+
+#grid {
+    width: 40em;
+    margin: 0 auto;
+}
+
+.cell {
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    border: solid 1px grey;
+}
+
+.brush {
+    width: 2em;
+    height: 2em;
+    display: inline-block;
+    border-radius: 100%;
+}
+
+section {
+    margin: 0 auto;
+    width: 20em;
+}
